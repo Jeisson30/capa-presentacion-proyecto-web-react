@@ -1,0 +1,27 @@
+.table-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.table-header {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.table-cell {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table-row {
+    border-bottom: 1px solid #dddddd;
+}
+
+.action-button {
+    margin-right: 5px;
+}
